@@ -1,0 +1,308 @@
+body {
+    font-family: avenir next;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+header, 
+section,
+footer {
+    padding: 50px;
+}
+
+header {
+    /* background-color: rgba(50, 51, 53, 0.5); */
+    background-color: rgba(84, 85, 87, 0.5);
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    
+
+    /* width: 100%;
+    position: fixed; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-button {
+    margin: 10px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    
+}
+
+nav a:hover {
+    /* color: rgb(12, 196, 168); */
+    color:rgb(10, 136, 117);
+}
+
+.logo-container {
+    margin: 10px;
+}
+
+.logo {
+    height: 50px;
+    /* padding: 10px;     */
+}
+
+.social-networks-container { 
+    padding: 10px;
+    /* margin-top: 5px; */
+    min-width: 120px;
+    position: relative;
+}
+
+.social-networks-container a {
+    height: 0;
+    
+}
+
+.linkedin {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    fill: rgb(85, 85, 85);
+}
+
+.linkedin:hover {
+    fill: rgb(0, 119, 181);
+}
+
+.github {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    fill: rgb(85, 85, 85);
+}
+
+.github:hover {
+    fill: black;
+}
+
+main section {
+    min-height: 450px;
+    
+}
+
+.intro-container {
+    background-color: rgba(84, 85, 87, 0.5);
+    position: relative;
+
+    /* width: 100%;
+    position: absolute;
+    top: 70px;
+    z-index: 10;
+    margin: 0;
+    padding: 0; */
+
+}
+
+.intro {
+    /* height: 300px; */
+    width: 600px;
+    font-size: 30px;
+    margin-left: 45px;
+    padding-top: 50px;
+    color: rgb(85, 85, 85);
+    /* color: rgb(232, 232, 232); */
+}
+
+
+ins {
+    text-decoration: none;
+    color:rgb(10, 136, 117);
+    /* color: #6e9391; */
+}
+
+.profile-photo {
+    height: 670px;
+    position: absolute;
+    top: -120px;
+    right: 100px;
+    z-index: -1;
+    /* problem with screen size */
+}
+
+.about-container {
+    /* background-color: rgba(5, 23, 41, 0.250);
+    margin: 0;
+    padding: 0; */
+    color: rgb(85, 85, 85);
+    /* background-color: rgb(232, 232, 232); */
+    line-height: 30px;
+    /* padding: 25px; */
+    
+
+}
+
+h1 {
+    color:rgb(10, 136, 117);
+    padding-bottom: 25px;
+    font-size: 1.7em;
+}
+
+.about {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: justify;
+}
+
+section article span p {
+    padding-bottom: 15px; 
+}
+
+.skills-container {
+    background-color: rgba(84, 85, 87, 0.5);
+    /* padding: 25px; */
+    /* color: rgb(232, 232, 232); */
+    color: rgb(85, 85, 85);
+    line-height: 30px;
+}
+
+
+.skills-container div {
+    width: 600px;
+    /* padding-top: 15px; */
+}
+
+.skills-container ul {
+    /* padding-top: 50px; */
+    padding: 50px;
+    font-weight: 500;
+    font-size: large;
+    list-style-type: circle;
+
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+
+}
+
+/* .skills-container li {
+    display: inline-block;
+    width: 150px;
+} */
+
+.project-container {
+    color: rgb(85, 85, 85);
+}
+
+.project {
+    text-align: center;
+}
+
+.project-container div {
+    margin-bottom: 50px;
+}
+
+.project-photo {
+    /* max-width: 1200px; */
+    width: 100%;
+    border-radius: 5px;
+    transition: .4s;  
+}
+
+.project-photo:hover {
+    transform: scale(1.02);
+    transition: .4s;
+}
+/* .project a:hover ~ .project-link {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: rgb(10, 136, 117);
+} */
+
+.project h3 {
+    padding-top: 45px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    
+}
+
+.project-link:hover {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: rgb(10, 136, 117);
+}
+/* .project-link:hover ~ .project-photo {
+    transform: scale(1.02);
+    transition: .4s;
+}
+
+.project p {
+    padding-bottom: 10px;
+} */
+
+/* .project-photo:hover + .project-link {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: rgb(10, 136, 117);
+} */
+
+footer {
+    background-color: rgba(84, 85, 87, 0.5);
+    color: rgb(85, 85, 85);
+    min-height: 130px;
+}
+
+footer div:first-of-type {
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.email {
+    padding-top: 20px;
+    height: 25px;
+    color: rgb(85, 85, 85);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    /* color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid; */
+}
+
+.email:hover {
+    border-bottom-width: 2px;
+    border-bottom-style: none;
+    color: rgb(10, 136, 117);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    /* make a hand pointer  */
+}
+
+footer {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
