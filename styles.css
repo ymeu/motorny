@@ -16,11 +16,6 @@ header {
     background-color: rgba(84, 85, 87, 0.5);
     display: flex;
     justify-content: space-between;
-    min-height: 70px;
-    
-
-    /* width: 100%;
-    position: fixed; */
 }
 
 nav {
@@ -94,20 +89,12 @@ nav a:hover {
 
 main section {
     min-height: 450px;
-    
 }
 
 .intro-container {
     background-color: rgba(84, 85, 87, 0.5);
     position: relative;
-
-    /* width: 100%;
-    position: absolute;
-    top: 70px;
-    z-index: 10;
-    margin: 0;
-    padding: 0; */
-
+    line-height: 40px;
 }
 
 .intro {
@@ -129,15 +116,7 @@ main section {
 }
 
 .about-container {
-    /* background-color: rgba(5, 23, 41, 0.250);
-    margin: 0;
-    padding: 0; */
     color: rgb(85, 85, 85);
-    /* background-color: rgb(232, 232, 232); */
-    line-height: 30px;
-    /* padding: 25px; */
-    
-
 }
 
 h1 {
