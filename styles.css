@@ -2,6 +2,7 @@ body {
     font-family: avenir next;
     margin: 0 auto;
     max-width: 1400px;
+    line-height: 30px;
 }
 
 header, 
@@ -118,14 +119,6 @@ main section {
     color: rgb(85, 85, 85);
     /* color: rgb(232, 232, 232); */
 }
-
-
-ins {
-    text-decoration: none;
-    color:rgb(10, 136, 117);
-    /* color: #6e9391; */
-}
-
 .profile-photo {
     height: 670px;
     position: absolute;
@@ -149,7 +142,7 @@ ins {
 
 h1 {
     color:rgb(10, 136, 117);
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     font-size: 1.7em;
 }
 
@@ -166,56 +159,37 @@ section article span p {
 
 .skills-container {
     background-color: rgba(84, 85, 87, 0.5);
-    /* padding: 25px; */
-    /* color: rgb(232, 232, 232); */
     color: rgb(85, 85, 85);
-    line-height: 30px;
 }
 
 
 .skills-container div {
     width: 600px;
-    /* padding-top: 15px; */
 }
 
 .skills-container ul {
-    /* padding-top: 50px; */
     padding: 50px;
     font-weight: 500;
     font-size: large;
     list-style-type: circle;
-
-
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap; */
-
 }
-
-/* .skills-container li {
-    display: inline-block;
-    width: 150px;
-} */
 
 .project-container {
     color: rgb(85, 85, 85);
+    text-align: left;
 }
-
 .project {
     text-align: center;
 }
 
-.project-container div {
-    margin-bottom: 50px;
-}
+/* .project-container p {
+    text-align: center;
+} */
 
 .project-photo {
-    /* max-width: 1200px; */
     width: 100%;
     border-radius: 5px;
     transition: .4s;  
@@ -225,43 +199,27 @@ section article span p {
     transform: scale(1.02);
     transition: .4s;
 }
-/* .project a:hover ~ .project-link {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    color: rgb(10, 136, 117);
-} */
+.project-description {
+    margin-bottom: 50px;
+}
 
 .project h3 {
-    padding-top: 45px;
+    padding-top: 35px;
 }
 
 .project-link {
-    text-decoration: none;
+    text-align: right;
     color: rgb(85, 85, 85);
     border-bottom-width: 2px;
-    border-bottom-style: solid;
-    
+    border-bottom-style: solid;  
 }
 
 .project-link:hover {
     border-bottom-width: 2px;
     border-bottom-style: solid;
     color: rgb(10, 136, 117);
+    font-weight: 450;
 }
-/* .project-link:hover ~ .project-photo {
-    transform: scale(1.02);
-    transition: .4s;
-}
-
-.project p {
-    padding-bottom: 10px;
-} */
-
-/* .project-photo:hover + .project-link {
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    color: rgb(10, 136, 117);
-} */
 
 footer {
     background-color: rgba(84, 85, 87, 0.5);
